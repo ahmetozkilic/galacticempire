@@ -83,7 +83,7 @@ $(function () {
       })
       // Phone
         $('#telephone').on('blur input', function () {
-            let regexTelephone = /[0]{1}[1-7]{1}[0-9]{8}/;
+            let regexTelephone = /[0]{1}[5]{1}[0-9]{9}/;
             let telEntry = String(document.getElementById('telephone').value);
             for (var i = 0; i < telEntry.length; i++) {
               telEntry = telEntry.replace(" ", "");
